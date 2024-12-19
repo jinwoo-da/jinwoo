@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: 0;
+}
+
+#root{
+  width: 80%;
+  border: ipx solid pink;
+  text-align: center;
+  margin: 10px auto;
+}
