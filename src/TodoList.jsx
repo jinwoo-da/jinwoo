@@ -55,11 +55,7 @@ function TodoList() {
       <div>
         {data?.map((todo) => <Todo key={todo.todoId}>{todo.todoTitle} todo={todo}/>)}
         <input type='text' ref={jcTxt} defaultValue={"수민 할일 많음"} style={{border:"1px solid green"}}/>
-        <button
-          onClick={ handleAdd}
-        >
-          Add Todo
-        </button>
+        <button onClick={ handleAdd}> Add Todo  </button>
       </div>
     )
   }
